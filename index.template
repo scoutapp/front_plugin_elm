@@ -1,0 +1,16 @@
+<html>
+
+<head>
+  <script src="https://dl.frontapp.com/libs/frontjs.min.js"></script>
+  <script src="elm.js"></script>
+</head>
+
+<body>
+  <div id="elm"></div>
+
+  <script>
+      var app = Elm.Main.fullscreen();
+  </script>
+</body>
+
+</html>
