@@ -6,10 +6,18 @@
 </head>
 
 <body>
-  <div id="elm"></div>
 
+  <div id="elm"></div>
   <script>
       var app = Elm.Main.fullscreen();
+  </script>
+
+  <script>
+    Front.on('conversation', function (event) {
+      console.log(event);
+      app.ports.conversation.send(event);
+    });
+
   </script>
 </body>
 
